@@ -1,0 +1,3 @@
+## .env.local file
+
+## VITE_STRIPE_PK=pk_test_51SPmfRE7QaqLawjooeHzUnnPgjTybMZsF80mKY38IMysR2huRw3fQUGLUH79oRWfw2XPGwxRMbozwTeDeTmp7JvE004rlIgPwp
