@@ -22,12 +22,14 @@ import ManageOrders from './../pages/dashboard/admin/orders/ManageOrders';
 import AddProduct from './../pages/dashboard/admin/addProduct/AddProduct';
 import ManageProducts from "../pages/dashboard/admin/manageProduct/ManageProducts";
 import UpdateProduct from './../pages/dashboard/admin/manageProduct/UpdateProduct';
+import Contact from "../pages/contact/Contact";
 function RouterPage() {
   return (
     <Routes>
       <Route element={<App />} errorElement={<ErrorPage />}>
         <Route path="/" element={<Home />} errorElement={<ErrorPage />} />
         <Route path="/shop" element={<ShopPage />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/shop/:id" element={<SingleProduct />} />
         <Route path="/categories/:categoryName" element={<CategoryPage />} />
         <Route path="/success" element={<PaymentSuccess />} />

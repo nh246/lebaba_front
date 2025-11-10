@@ -34,7 +34,7 @@ function Footer() {
         </div>
         <div className="footer__col">
           <h4>COMPANY</h4>
-          <Link to="#">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="#">About Us</Link>
           <Link to="#">Work With Us</Link>
           <Link to="#">Our Blog</Link>
@@ -42,11 +42,11 @@ function Footer() {
         </div>
         <div className="footer__col">
           <h4>USEFUL LINK</h4>
-          <Link to="#">Help</Link>
-          <Link to="#">Track My Order</Link>
-          <Link to="#">Men</Link>
-          <Link to="#">Women</Link>
-          <Link to="#">Dresses</Link>
+          <Link to="/shop">Help</Link>
+          <Link to="/orders">Track My Order</Link>
+          <Link to="/shop">Men</Link>
+          <Link to="/shop">Women</Link>
+          <Link to="/shop">Dresses</Link>
         </div>
         <div className="footer__col">
           <h4>INSTAGRAM</h4>
