@@ -26,7 +26,13 @@ function Login() {
       // console.log(response.token)
       alert("Login succesfull")
        dispatch(setUser({user}))
-      navigate("/")
+     // navigate("/")
+      // Instead of always going to "/", redirect based on role
+      if (user.role === "admin") {
+        navigate("/dashboard/admin"); // 👑 Admin → Admin Dashboard
+      } else {
+        navigate("/dashboard"); // 👤 Normal User → User Dashboard
+      }
     } catch (error) {
       setMessage("Please Provide a valid email and password")
       // console.error("Login Failed:" , error)

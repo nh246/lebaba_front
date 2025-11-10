@@ -61,7 +61,7 @@ function Footer() {
         </div>
       </footer>
       <div className="footer__bar">
-        Copyright © 2025 Web Design Mastery. All rights reserved.
+        Copyright © 2025 Nazmul Hossain. All rights reserved.
       </div>
     </>
   );
